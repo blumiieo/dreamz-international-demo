@@ -46,74 +46,69 @@
   </aside>
 
   <!-- NAVIGATION BAR -->
-  <nav class="navbar navbar-expand-lg custom-navbar" id="mainNav">
-    <div class="container">
-      <!-- Brand Logo -->
-      <a class="navbar-brand animate__animated animate__fadeInLeft nav-scroll-link" href="#home">
-        <img src="assets/img/logo/dreamzintl-logo.svg" alt="Dreamz International" class="navbar-logo-img">
-      </a>
+<nav class="navbar navbar-expand-lg custom-navbar" id="mainNav">
+  <div class="container">
+    <!-- Brand Logo -->
+    <a class="navbar-brand animate__animated animate__fadeInLeft nav-scroll-link" href="#home">
+      <img src="assets/img/logo/dreamzintl-logo.svg" alt="Dreamz International" class="navbar-logo-img">
+    </a>
 
-      <!-- Mobile Hamburger Button -->
-      <button class="navbar-toggler custom-toggler border-0 shadow-none p-0 collapsed" type="button"
-        data-bs-toggle="collapse" data-bs-target="#advisolNavContent" aria-controls="advisolNavContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="custom-burger-box">
-          <span class="line line-1"></span>
-          <span class="line line-2"></span>
-          <span class="line line-3"></span>
-          <span class="line line-4"></span>
-        </span>
-      </button>
+    <!-- Mobile Hamburger Button -->
+    <button class="navbar-toggler custom-toggler border-0 shadow-none p-0 collapsed" type="button"
+      data-bs-toggle="collapse" data-bs-target="#advisolNavContent" aria-controls="advisolNavContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="custom-burger-box">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+        <span class="line line-4"></span>
+      </span>
+    </button>
 
-      <!-- Nav Links & CTA -->
-      <div class="collapse navbar-collapse" id="advisolNavContent">
-        <!-- Mobile Top Bar with Animated Close Button (Visible on mobile/tablet) -->
-        <div class="mobile-menu-header d-lg-none">
-          <div class="d-flex align-items-center gap-2">
-            <div class="logo-badge" style="width: 28px; height: 28px; font-size: 0.9rem;">D</div>
-            <span class="fw-bold fs-6">Navigation</span>
+    <!-- Nav Links & CTA -->
+    <div class="collapse navbar-collapse" id="advisolNavContent">
+      <!-- Mobile Top Bar with Animated Close Button (D and Navigation text removed) -->
+      <div class="mobile-menu-header d-lg-none d-flex justify-content-end align-items-center w-100">
+        <button type="button" class="mobile-close-btn" id="mobileNavCloseBtn" 
+          data-bs-toggle="collapse" data-bs-target="#advisolNavContent" 
+          aria-label="Close navigation menu">
+          <i class="bi bi-x-lg"></i>
+        </button>
+      </div>
+
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link nav-scroll-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-scroll-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-scroll-link" href="#services">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-scroll-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Right Side Contact & Button -->
+      <div class="d-flex align-items-center flex-column flex-lg-row">
+        <div class="header-contact">
+          <div class="globe-icon-wrap">
+            <i class="bi bi-globe2"></i>
           </div>
-          <button type="button" class="mobile-close-btn" id="mobileNavCloseBtn" aria-label="Close navigation menu">
-            <i class="bi bi-x-lg"></i>
-          </button>
-        </div>
-
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link nav-scroll-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-scroll-link" href="#about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-scroll-link" href="#services">Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-scroll-link" href="#categories">Sectors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-scroll-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-
-        <!-- Right Side Contact & Button -->
-        <div class="d-flex align-items-center flex-column flex-lg-row">
-          <div class="header-contact">
-            <div class="globe-icon-wrap">
-              <i class="bi bi-globe2"></i>
-            </div>
-            <div class="contact-details">
-              <span>Let's Talk</span>
-              <a href="tel:+919717021400">(+91 97170 21400)</a>
-            </div>
+          <div class="contact-details">
+            <span>Let's Talk</span>
+            <a href="tel:+919717021400">(+91 97170 21400)</a>
           </div>
-          <a href="#contact" class="btn-pill-dark nav-scroll-link">
-            Get In Touch <i class="bi bi-arrow-right"></i>
-          </a>
         </div>
+        <a href="#contact" class="btn-pill-dark nav-scroll-link">
+          Get In Touch <i class="bi bi-arrow-right"></i>
+        </a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- HERO SECTION (#home) -->
   <section class="hero-wrapper" id="home">
